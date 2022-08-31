@@ -1,7 +1,7 @@
 import { FaPlusCircle } from "react-icons/fa";
 import { Dropdown } from "./Dropdown";
 
-export const TaskInput = ({setTextInput,currText, setItems, items})=>{
+export const TaskInput = ({setTextInput,currText, setItems, items, setFilter})=>{
     const addTodo = (e)=>{
         e.preventDefault()
         setItems(
@@ -20,7 +20,7 @@ export const TaskInput = ({setTextInput,currText, setItems, items})=>{
                 <input value={currText} className="taskInput" type="text" onChange={updateText}/>
                 <FaPlusCircle onClick={addTodo} className="add"/>
             </div>
-            <Dropdown/>
+            <Dropdown setFilter={setFilter}/>
         </div>
     );
 }
