@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/TopVirusMinus/todo-app-react/static/css/main.4984c48f.css",
+    "main.js": "/TopVirusMinus/todo-app-react/static/js/main.a68ffd8f.js",
+    "index.html": "/TopVirusMinus/todo-app-react/index.html",
+    "main.4984c48f.css.map": "/TopVirusMinus/todo-app-react/static/css/main.4984c48f.css.map",
+    "main.a68ffd8f.js.map": "/TopVirusMinus/todo-app-react/static/js/main.a68ffd8f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4984c48f.css",
+    "static/js/main.a68ffd8f.js"
+  ]
+}
